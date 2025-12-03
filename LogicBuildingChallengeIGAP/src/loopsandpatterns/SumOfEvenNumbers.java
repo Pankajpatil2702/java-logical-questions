@@ -7,7 +7,7 @@ public class SumOfEvenNumbers {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		
-		System.out.println("Enter number: ");
+		System.out.println("Enter numbers: ");
 		int num=sc.nextInt();
 		
 		int sum=0;
@@ -19,7 +19,8 @@ public class SumOfEvenNumbers {
 			
 		}
 		System.out.println("Sum of First Even Numbers: " + sum);
-
+		sc.close();
+		
 	}
 
 }

@@ -16,7 +16,9 @@ public class ArmstrongNumberCheck {
 
 	        while (number > 0) {
 	            int digit = number % 10; // Get the last digit
-	            sumOfPowers += Math.pow(digit, numberOfDigits); // Add digit raised to power of number of digits
+	            
+	            // Add digit raised to power of number of digits
+	            sumOfPowers += Math.pow(digit, numberOfDigits); 
 	            number /= 10; // Remove the last digit
 	        }
 

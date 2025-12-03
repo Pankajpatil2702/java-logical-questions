@@ -6,7 +6,7 @@ public class OneToHundredNumPrint {
 		
 		for(int i=0; i <= 100; i++) {
 			
-			System.out.println(i+1);
+			System.out.println(i);
 		}
 
 	}

@@ -10,10 +10,10 @@ public class PrimeNumber {
 		int num = sc.nextInt();
 		sc.close();
 		int count=0;
-		if(num > 1) {
+		if(num >= 1) {
 			for(int i=1; i<= num;i++) {
 				if(num % i  == 0) {
-					count++;
+					count++;  // counting how many numbers divide 'num'
 				}
 			}
 			if(count == 2) {

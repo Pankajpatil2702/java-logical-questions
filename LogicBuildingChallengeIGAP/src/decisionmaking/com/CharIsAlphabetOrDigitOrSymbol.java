@@ -1,7 +1,5 @@
 package decisionmaking.com;
 
-import java.util.Scanner;
-
 public class CharIsAlphabetOrDigitOrSymbol {
 
 	public static void main(String[]args) {
