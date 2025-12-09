@@ -29,6 +29,7 @@ public class ProfitOrLoss {
 		{
 			System.out.println(" No Profit No Loss ");
 		}
+		sc.close();
 	}
 
 }

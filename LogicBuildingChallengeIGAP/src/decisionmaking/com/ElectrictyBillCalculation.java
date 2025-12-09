@@ -10,7 +10,7 @@ public class ElectrictyBillCalculation {
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the number of units consumed: ");
 	units=sc.nextInt();
-	
+	sc.close();
 	}
 	public void calculateElecrictyBill() {
 		if(units <= 100) {  // When condition is True when we go for this loop
@@ -34,7 +34,7 @@ public class ElectrictyBillCalculation {
 		electricBill.printUnits();
 		electricBill.calculateElecrictyBill();
 		electricBill.printElectrictyBillFinalAmount();
-		
+	
 	}
 	
 }

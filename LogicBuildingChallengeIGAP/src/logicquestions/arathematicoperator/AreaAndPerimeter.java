@@ -23,6 +23,7 @@ public class AreaAndPerimeter {
 		width=sc.nextInt();
 		perimeter= 2 * (length+width); // Perimeter (P) = 2 × (length (l) + width (w)) 
 		System.out.println("Perimeter of Rectangle is : " + perimeter);
+		sc.close();
 	}
 
 }
